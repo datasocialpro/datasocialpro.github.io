@@ -1040,3 +1040,20 @@ footer .footer .bottom .socials .icon {
           align-items: center;
 }
 /*# sourceMappingURL=main.css.map */
+
+
+/* Some extra styling */
+
+textarea {
+  /* width: 100%; */
+  height: 150px;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
+
+/* .form-submit-button {
+  background-color: red;
+} */

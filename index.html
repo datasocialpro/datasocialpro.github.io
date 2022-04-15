@@ -41,18 +41,18 @@
               <img src="./images/close.svg" alt="close" class="nav-close" />
             </li>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <!-- <li><a href="#">Blog</a></li> -->
+            <!-- <li><a href="#">Portfolio</a></li> -->
+            <li><a href="#contact-us">Contact Us</a></li>
           </ul>
         </nav>
 
         <img src="./images/hamburger.svg" alt="toggle" class="nav-toggle" />
       </div>
 
-      <a href="#" class="button">Contact Us</a>
+      <a href="#contact-us" class="button">Contact Us</a>
     </header>
 
     <main>
@@ -129,7 +129,7 @@
           <div class="col-1">
             <img src="./images/about-img.png" alt="about-img" />
           </div>
-          <div class="col-2">
+          <div class="col-2" id="about-us">
             <h2 class="title">How We Help You</h2>
             <p class="subtitle">
               It's simple! You know the power of influencer marketing
@@ -151,7 +151,7 @@
               getting marketing partners invested in your growth, versus
               salesmen invested in milking you dry!
             </p> -->
-            <a href="#" class="button">LET'S TALK</a>
+            <a href="#contact-us" class="button">LET'S TALK</a>
           </div>
         </section>
 
@@ -188,7 +188,7 @@
 
       <div class="diff-colors">
         <div class="main">
-          <section class="section services-section">
+          <section class="section services-section" id="services">
             <p class="section--subtitle">an ecommerce business's best friend</p>
             <h2 class="section--title">our professional service massively scales your business</h2>
 
@@ -415,7 +415,7 @@
 
 
       <!-- Contact Email Section Here -->
-
+      
 
 
     </main>
@@ -429,16 +429,21 @@
       </div>
 
       <div class="footer">
-        <div class="sub-form">
+        <div id="contact-us" class="sub-form">
           <img src="./images/mail.png" alt="img" />
-          <h3>Like What We Do? Subscribe for Updates!</h3>
-          <p>
+          <h3>Contact Us!</h3>
+          <!-- <p>
             We will keep you in the loop for new features, services and scaling strategies.
-          </p>
+          </p> -->
           <div class="form-container">
-            <form action="#">
-              <input type="email" placeholder="Enter Your Email" />
-              <button type="submit">Subscribe</button>
+            <form
+              action="https://formspree.io/f/mdobwwly"
+              method="POST"
+            >
+              <input required type="email" name="email" placeholder="Enter Your Email" />
+              <textarea required name="message" placeholder="Hi,&#10&#10I am interested in ____,&#10could we schedule a demo on Feb-22 @3pm? &#10&#10Thanks,&#10Madison"></textarea>
+              <!-- <input type="text" placeholder="I am interested in" /> -->
+              <button type="submit">Send!</button>
             </form>
           </div>
         </div>
@@ -454,19 +459,19 @@
           </div>
 
           <div class="col-double">
-            <h3>COMPANY</h3>
+            <h3>DataSocial</h3>
             <div class="inner">
               <div>
-                <p><a href="#">About Us</a></p>
-                <p><a href="#">Contact US</a></p>
+                <p><a href="#about-us">About Us</a></p>
+                <p><a href="#contact-us">Contact US</a></p>
                 <!-- <p><a href="#">Careers</a></p> -->
-                <p><a href="#">Support</a></p>
+                <!-- <p><a href="#">Support</a></p> -->
               </div>
               <div>
-                <p><a href="#">FAQ</a></p>
-                <p><a href="#">Terms</a></p>
-                <p><a href="#">Privacy</a></p>
-                <p><a href="#">blog</a></p>
+                <!-- <p><a href="#">FAQ</a></p> -->
+                <!-- <p><a href="#">Terms</a></p> -->
+                <!-- <p><a href="#">Privacy</a></p> -->
+                <!-- <p><a href="#">blog</a></p> -->
               </div>
             </div>
           </div>
@@ -485,18 +490,18 @@
 
         <div class="bottom">
           <div class="socials">
-            <div class="icon">
+            <!-- <div class="icon">
               <img src="./images/fb.svg" alt="icon" />
-            </div>
-            <div class="icon">
+            </div> -->
+            <!-- <div class="icon">
               <img src="./images/twitter.svg" alt="icon" />
-            </div>
-            <div class="icon">
+            </div> -->
+            <!-- <div class="icon">
               <img src="./images/ig.svg" alt="icon" />
-            </div>
-            <div class="icon">
+            </div> -->
+            <!-- <div class="icon">
               <img src="./images/yt.svg" alt="icon" />
-            </div>
+            </div> -->
           </div>
           <div class="copyright">© 2022 — All Rights Reserved</div>
         </div>
