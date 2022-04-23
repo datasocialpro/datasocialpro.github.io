@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins");
 :root {
   --primary-clr: #70a0e7;
-  --secondary-clr: #e1b76a;
-  --accent-clr: #e1b76a;
+  --secondary-clr: #ecb025;
+  --accent-clr: #ecb025;
   --text-clr: #ffffff;
 }
 
@@ -946,7 +946,8 @@ footer .footer .sub-form .form-container form input::placeholder {
 }
 
 footer .footer .sub-form .form-container form button {
-  background-color: var(--text-clr);
+  /* background-color: var(--text-clr); */
+  background-color: #f6cb7d;
   color: var(--primary-clr);
   font-size: 16px;
   border: none;
